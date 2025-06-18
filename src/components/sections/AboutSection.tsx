@@ -27,7 +27,7 @@ export default function AboutSection() {
         </div>
         <div className="space-y-6 text-lg text-text-dark">
           <p>
-            Hello! Im John Rodolfo Delgado, a dedicated and results-oriented Full-Stack Developer and Technical SEO Specialist with a strong passion for creating innovative and user-centric web applications. I thrive on solving complex problems and continuously learning new technologies.
+            Hello! I`m John Rodolfo Delgado, a dedicated and results-oriented Full-Stack Developer and Technical SEO Specialist with a strong passion for creating innovative and user-centric web applications. I thrive on solving complex problems and continuously learning new technologies.
           </p>
           <p>
             My journey into web development started with a fascination for how interactive digital experiences are built. Since then, Ive honed my skills in both front-end and back-end development, working with technologies like React, Next.js, Node.js, and various databases.

@@ -85,7 +85,7 @@ export default function HeroSection() {
             variants={itemVariants}
             className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 relative" // **** ADDED relative ****
           >
-            Hi, Im <span className="text-gradient animate-text-gradient">John Rodolfo Delgado</span>
+            Hi, I`m <span className="text-gradient animate-text-gradient">John Rodolfo Delgado</span>
 
             {/* --- START: Animated Figures around H1 Text --- */}
             <motion.div // Figure 1: Orbiting dot
