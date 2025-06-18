@@ -8,7 +8,7 @@ import ProjectCard from '@/components/ui/ProjectCard';
 const projectsData = [
   // Ensure you have more than 6 projects here for testing "Load More"
   { title: 'Futuristic Dashboard', description: '...', imageUrl: '/chinchincasinoapp.png', tags: ['Next.js', 'React', 'TailwindCSS', 'Chart.js', 'TypeScript'], liveUrl: 'https://chinchincasinoapp.com/', repoUrl: '#', category: 'Casinos with Technical SEO' },
-  { title: 'Futuristic Dashboard', description: '...', imageUrl: '/chinchincasinoapp.png', tags: ['Next.js', 'React', 'TailwindCSS', 'Chart.js', 'TypeScript'], liveUrl: 'https://chinchincasinoapp.com/', repoUrl: '#', category: 'Casinos with Technical SEO' },
+  
   { title: 'AI Content Generator', description: '...', imageUrl: '/placeholder-project-2.jpg', tags: ['React', 'Node.js', 'Express', 'MongoDB', 'OpenAI API'], liveUrl: '#', category: 'Website' },
   { title: 'E-commerce Platform X', description: '...', imageUrl: '/placeholder-project-3.jpg', tags: ['Next.js', 'Stripe', 'GraphQL', 'PostgreSQL', 'AWS'], repoUrl: '#', category: 'E-commerce' },
   { title: 'Mobile Game UI Kit', description: '...', imageUrl: '/placeholder-project-4.jpg', tags: ['UI/UX', 'Figma', 'Mobile Design'], category: 'Website' },
