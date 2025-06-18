@@ -4,7 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import CustomCursor from '@/components/CustomCursor';
-import ParticlesBackground from '@/components/ui/ParticlesBackground';
+
 
 
 const inter = Inter({ subsets: ['latin'] }); // Configure your font
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-background text-text`}>
-         <ParticlesBackground />
+        
          
         <CustomCursor />
         <Navbar />
