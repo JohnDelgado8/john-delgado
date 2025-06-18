@@ -106,7 +106,7 @@ export default function ProjectsSection() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center text-text-dark mt-12 text-lg"
         >
-          No projects found in the "{selectedCategory}" category.
+          No projects found in the  {selectedCategory} category.
         </motion.p>
       )}
       {currentlyVisibleProjects.length === 0 && selectedCategory === "All" && projectsData.length > 0 && ( // Should not happen if projectsData is not empty

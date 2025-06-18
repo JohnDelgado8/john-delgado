@@ -61,7 +61,7 @@ export default function ContactSection() {
           className="space-y-8"
         >
           <p className="text-lg text-text-dark">
-            I'm always open to discussing new projects, creative ideas, or opportunities to
+            Im always open to discussing new projects, creative ideas, or opportunities to
             be part of something amazing. Feel free to reach out!
           </p>
           <div className="space-y-6">
