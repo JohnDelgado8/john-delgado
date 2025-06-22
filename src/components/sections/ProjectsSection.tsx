@@ -7,17 +7,55 @@ import ProjectCard from '@/components/ui/ProjectCard';
 
 const projectsData = [
   // Ensure you have more than 6 projects here for testing "Load More"
-  { title: 'Futuristic Dashboard', description: '...', imageUrl: '/chinchincasinoapp.png', tags: ['Next.js', 'React', 'TailwindCSS', 'Chart.js', 'TypeScript'], liveUrl: 'https://chinchincasinoapp.com/', repoUrl: '#', category: 'Casinos with Technical SEO' },
+  // Casino Website
+  { title: 'Chinchincasino App', description: 'Casino website with handling on servers and hosting', imageUrl: '/chinchincasinoapp.png', tags: ['Wordpress', 'Elementor', 'PHP', 'Technical On Page', 'Javascript'], liveUrl: 'https://chinchincasinoapp.com/', category: 'Website with Technical SEO' },
+  { title: 'Tabgold SA', description: 'Casino website with handling on servers and hosting', imageUrl: '/tabgold.png', tags: ['Wordpress', 'Elementor', 'PHP', 'Technical On Page', 'Javascript'], liveUrl: 'https://tabgold.co/', category: 'Website with Technical SEO' },
+ { title: 'Chinchin-casino', description: 'Casino website with handling on servers and hosting', imageUrl: '/chinchin-casino.png', tags: ['Wordpress', 'Elementor', 'PHP', 'Technical On Page', 'Javascript'], liveUrl: 'https://chinchin-casino.com/', category: 'Website with Technical SEO' },
+ { title: 'Jojobet TR', description: 'Casino website with handling on servers and hosting', imageUrl: '/jojobet-tr.png', tags: ['Wordpress', 'Elementor', 'PHP', 'Technical On Page', 'Javascript'], liveUrl: 'https://jojobet-tr.co/', category: 'Website with Technical SEO' },
+ { title: 'Yeti Casino', description: 'Casino website with handling on servers and hosting', imageUrl: '/yeti-casino.png', tags: ['Wordpress', 'Elementor', 'PHP', 'Technical On Page', 'Javascript'], liveUrl: 'https://yeti-casino.net/', category: 'Website with Technical SEO' },
+ { title: 'Jojobetlink', description: 'Casino website with handling on servers and hosting', imageUrl: '/jojobetlink.png', tags: ['Wordpress', 'Elementor', 'PHP', 'Technical On Page', 'Javascript'], liveUrl: 'https://jojobetlink.com/', category: 'Website with Technical SEO' },
+  { title: 'Betfred News', description: 'Casino website with handling on servers and hosting', imageUrl: '/betfred.png', tags: ['Wordpress', 'Elementor', 'PHP', 'Technical On Page', 'Javascript'], liveUrl: 'https://betfred.news/', category: 'Website with Technical SEO' },
+  { title: 'Grandpashabetgiris', description: 'Casino website with handling on servers and hosting', imageUrl: '/grandpashabet.png', tags: ['Wordpress', 'Elementor', 'PHP', 'Technical On Page', 'Javascript'], liveUrl: 'https://xn--grandpashabetgiri-gkd.com/', category: 'Website with Technical SEO' },
+ // end of casino websie
+
+ //start of custom code
+ { title: 'Pagespeed Diagnostics Tool', description: 'Useful tool that is like Google Pagespeed Insights', imageUrl: '/pagespeed.jpg', tags: ['Next.js', 'Typescript', 'Prisma', 'Tailwind', 'Lighthouse API'], repoUrl: 'https://github.com/JohnDelgado8/pagespeed-diagnostics', category: 'Custom Code' },
+{ title: 'All in one Tools', description: 'Image Converter, Documents Converter, Background Remover, AI humanizer (much accurate), and Video Transcriber', imageUrl: '/all-in-one.png', tags: ['Next.js', 'Typescript', 'Sharp', 'Reactjs', 'Tailwind', 'Open AI API'], repoUrl: 'https://github.com/JohnDelgado8/allinone-converter', category: 'Custom Code' },
+{ title: 'Microsoft Teams Clone', description: 'Real-time livechat', imageUrl: '/teams.png', tags: ['Next.js', 'Typescript', 'Reactjs', 'Tailwind', 'Prisma'], repoUrl: '', category: 'Custom Code' },
+{ title: 'Split Payment in Paynamics (WooCommerce)', description: 'Create a split payment features in Paynamics along with WooCommerce', imageUrl: '/split.png', tags: ['PHP', 'Javascript', 'HTML/CSS', 'MySQL'], repoUrl: 'https://github.com/JohnDelgado8/split-paynamics', category: 'Custom Code' },
+{ title: 'Personal Budget Tracker', description: 'For my personal use project', imageUrl: '/budget.png', tags: ['Javascript', 'HTML/CSS', 'Tailwind CSS'], repoUrl: 'https://github.com/JohnDelgado8/budget-tracker', category: 'Custom Code' },
+{ title: 'Restaurant Website', description: 'For my client', imageUrl: '/resta.png', tags: ['Javascript', 'HTML/CSS', 'Bootstrap'], repoUrl: 'https://github.com/JohnDelgado8/resturant-website', category: 'Custom Code' },
+{ title: 'Netflix Clone', description: 'Netflix Clone project for fun only', imageUrl: '/netflix.png', tags: ['PHP', 'Javascript', 'HTML/CSS', 'Bootstrap'], repoUrl: 'https://github.com/JohnDelgado8/netflix-project', category: 'Custom Code' },
+{ title: 'Gym Fitness Website', description: 'It`s for my first client', imageUrl: '/fitness.png', tags: ['Javascript', 'HTML/Css', 'PHP', 'Bootstrap'], repoUrl: 'https://github.com/JohnDelgado8/colossal-fitness', category: 'Custom Code' },
+{ title: 'University Scheduling System', description: 'Capstone Project for my college days', imageUrl: '', tags: ['HTML/CSS', 'VueJs', 'Quasar', 'PHP', 'Insomnia', 'Tailwind'], repoUrl: 'https://github.com/JohnDelgado8/Capstone-project', category: 'Custom Code' },
+
+
+//Website
+  { title: 'Clinilink', description: 'Services Website', imageUrl: '/Clinilink.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://clinilinkhealth.com/', category: 'Website' },
+  { title: 'HTX Customs', description: 'Services Website', imageUrl: '/htx.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://htxcustoms.com/', category: 'Website' },
+  { title: 'Clear Fishing', description: 'Services Website', imageUrl: '/clear.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://www.clearfinishpainting.com.au/', category: 'Website' },
+  { title: 'XMoto', description: 'Services Website', imageUrl: '/xmoto.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://xmoto.co.il/', category: 'Website' },
+  { title: 'Meguronim', description: 'Services Website', imageUrl: '/megu.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://meguronim.co.il/', category: 'Website' },
+  { title: 'Cozzix', description: 'Business Website', imageUrl: '/cozzix.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://cozzix.com/', category: 'Website' },
+  { title: 'E-Sim', description: 'Business Website', imageUrl: '/esim.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://esim-card.com/?v=da984e42a589', category: 'Website' },
+  { title: 'Kayoja', description: 'Business Website', imageUrl: '/kayoja.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://kayoja.com/', category: 'Website' },
+  { title: 'Pishpeshim', description: 'Business Website', imageUrl: '/pish.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://pishpeshim.co.il/', category: 'Website' },
+  { title: 'Florida Garage Doors', description: 'Services Website', imageUrl: '/florida.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://florida-garagedoors.com/', category: 'Website' },
+  { title: 'Precision Wound Care Group', description: 'Services Website', imageUrl: '/precision.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://precisionwoundcaregroup.com/', category: 'Website' },
+  { title: 'Captain Locksmith', description: 'Services Website', imageUrl: '/captain.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://captain-locksmith.com/', category: 'Website' },
+  { title: 'Angels Luxury', description: 'Services Website', imageUrl: '/angels.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://angelsluxuryrentals.com/', category: 'Website' },
+  { title: 'Bestizz', description: 'Services Website', imageUrl: '/bestizz.png', tags: ['Elementor', 'PHP', 'Javascript'], liveUrl: 'https://bestizz.com/', category: 'Website' },
+
+// E-commerce
+  { title: 'Adventure Primal', description: 'Business Website with a lot of products', imageUrl: 'adventure.png', tags: ['Elementor', 'PHP', 'Javascript', 'WooCommerce'], liveUrl: 'https://adventureprimal.com.au/',  category: 'WooCommerce' }, 
+  { title: 'Antunes', description: 'Business Website with a lot of products', imageUrl: 'antunes.png', tags: ['Elementor', 'PHP', 'Javascript', 'WooCommerce'], liveUrl: 'https://antunes.com/',  category: 'WooCommerce' },
+  { title: 'Hermosa', description: 'Business Website with a lot of products', imageUrl: 'hermosa.png', tags: ['Elementor', 'PHP', 'Javascript', 'WooCommerce'], liveUrl: 'https://www-dev.hermosa.co.il/',  category: 'WooCommerce' }, 
+
+
+  // Shopify
+  { title: 'Gift Spack Co.', description: 'Business Website with a lot of products', imageUrl: 'gift.png', tags: ['Javascript', 'Shopify'], liveUrl: 'https://giftspark.co/',  category: 'Shopify' }, 
+  { title: 'Edgartown Bicycles', description: 'Business Website with a lot of products', imageUrl: 'bike.png', tags: ['Javascript', 'Shopify'], liveUrl: 'https://944264-a1.myshopify.com/',  category: 'Shopify' }, 
   
-  { title: 'AI Content Generator', description: '...', imageUrl: '/placeholder-project-2.jpg', tags: ['React', 'Node.js', 'Express', 'MongoDB', 'OpenAI API'], liveUrl: '#', category: 'Website' },
-  { title: 'E-commerce Platform X', description: '...', imageUrl: '/placeholder-project-3.jpg', tags: ['Next.js', 'Stripe', 'GraphQL', 'PostgreSQL', 'AWS'], repoUrl: '#', category: 'E-commerce' },
-  { title: 'Mobile Game UI Kit', description: '...', imageUrl: '/placeholder-project-4.jpg', tags: ['UI/UX', 'Figma', 'Mobile Design'], category: 'Website' },
-  { title: 'Data Analytics Tool', description: '...', imageUrl: '/placeholder-project-5.jpg', tags: ['Python', 'Flask', 'D3.js', 'Pandas'], liveUrl: '#', repoUrl: '#', category: 'E-commerce' },
-  { title: 'Smart Home Controller', description: '...', imageUrl: '/placeholder-project-6.jpg', tags: ['React', 'Firebase', 'IoT'], liveUrl: '#', repoUrl: '#', category: 'Casinos with Technical SEO' },
-  { title: 'Project 7', description: 'Description for project 7.', imageUrl: '/placeholder-project-7.jpg', tags: ['Vue.js', 'Nuxt'], liveUrl: '#', category: 'Website' },
-  { title: 'Project 8 - AI', description: 'Description for project 8.', imageUrl: '/placeholder-project-8.jpg', tags: ['Python', 'TensorFlow'], repoUrl: '#', category: 'E-commerce' },
-  { title: 'Project 9 - Design', description: 'Description for project 9.', imageUrl: '/placeholder-project-9.jpg', tags: ['Illustrator', 'Branding'], category: 'Casinos with Technical SEO' },
-  { title: 'Project 10 - E-com', description: 'Description for project 10.', imageUrl: '/placeholder-project-10.jpg', tags: ['Shopify', 'Liquid'], category: 'E-commerce' },
 ];
 
 const ITEMS_PER_PAGE = 6; // Number of projects to show initially and per "load more" click

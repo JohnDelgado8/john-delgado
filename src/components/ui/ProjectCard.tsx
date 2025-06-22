@@ -78,7 +78,7 @@ export default function ProjectCard({
             className="flex items-center text-text-dark hover:text-primary transition-colors duration-200 text-sm font-medium group/link"
           >
             <ExternalLink size={18} className="mr-1.5 group-hover/link:text-primary transition-colors" />
-            Live Demo
+            Live Site
           </Link>
         )}
         {repoUrl && (
