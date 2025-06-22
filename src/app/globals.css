@@ -41,6 +41,12 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: hidden;
+  /* Optional: Set a max-width to be extra safe, although overflow-x is usually enough */
+  /* max-width: 100%; */
+}
+
 @keyframes move-gradient {
   0% {
     background-position: 0% 50%;
