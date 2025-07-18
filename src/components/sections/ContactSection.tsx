@@ -68,17 +68,17 @@ export default function ContactSection() {
             <div className="flex items-center space-x-4">
               <Mail size={24} className="text-primary" />
               {/* Remember to replace with your actual email */}
-              <a href="mailto:your.actual.email@example.com" className="text-text hover:text-primary transition-colors">
-                your.actual.email@example.com
+              <a href="mailto:djohnrodolfo@gmail.com" className="text-text hover:text-primary transition-colors">
+                djohnrodolfo@gmail.com
               </a>
             </div>
             <div className="flex items-center space-x-4">
               <Phone size={24} className="text-primary" />
-              <span className="text-text">(+123) 456 7890 (Optional)</span>
+              <span className="text-text">(+63) 962-329-0069</span>
             </div>
             <div className="flex items-center space-x-4">
               <MapPin size={24} className="text-primary" />
-              <span className="text-text">Your City, Country (Optional)</span>
+              <span className="text-text">Pasay City, Philippines</span>
             </div>
           </div>
         </motion.div>
