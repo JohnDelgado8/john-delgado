@@ -38,7 +38,7 @@ export default function AboutSection() {
 I believe in writing clean, efficient, and maintainable code. My goal is to transform ideas into impactful digital solutions that not only look great but also perform flawlessly—with enhanced speed, accessibility, and SEO readiness.
           </p>
           <a
-            href="/johndelgado.pdf" // Place your CV in the /public folder
+            href="/Delgado_Resume.pdf" // Place your CV in the /public folder
             download
             className="inline-block mt-4 bg-secondary text-white font-semibold px-6 py-3 rounded-lg
                        text-md hover:bg-accent transition-all duration-300
