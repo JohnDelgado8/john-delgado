@@ -20,6 +20,7 @@ const projectsData = [
 
  //start of custom code
  { title: 'Pagespeed Diagnostics Tool', description: 'Useful tool that is like Google Pagespeed Insights', imageUrl: '/pagespeed.jpg', tags: ['Next.js', 'Typescript', 'Prisma', 'Tailwind', 'Lighthouse API'], repoUrl: 'https://github.com/JohnDelgado8/pagespeed-diagnostics', category: 'Custom Code' },
+ { title: 'Livescores', description: 'Global Livescores', imageUrl: '/oyuntaktik.png', tags: ['Next.js', 'Typescript', 'Prisma', 'Tailwind', 'Rest API'], liveUrl: 'https://oyuntaktik.com/en',  category: 'Custom Code' },
 { title: 'All in one Tools', description: 'Image Converter, Documents Converter, Background Remover, AI humanizer (much accurate), and Video Transcriber', imageUrl: '/all-in-one.png', tags: ['Next.js', 'Typescript', 'Sharp', 'Reactjs', 'Tailwind', 'Open AI API'], repoUrl: 'https://github.com/JohnDelgado8/allinone-converter', category: 'Custom Code' },
 { title: 'Microsoft Teams Clone', description: 'Real-time livechat', imageUrl: '/teams.png', tags: ['Next.js', 'Typescript', 'Reactjs', 'Tailwind', 'Prisma'], repoUrl: '/', category: 'Custom Code' },
 { title: 'Split Payment in Paynamics (WooCommerce)', description: 'Create a split payment features in Paynamics along with WooCommerce', imageUrl: '/split.png', tags: ['PHP', 'Javascript', 'HTML/CSS', 'MySQL'], repoUrl: 'https://github.com/JohnDelgado8/split-paynamics', category: 'Custom Code' },
@@ -50,6 +51,8 @@ const projectsData = [
   { title: 'Adventure Primal', description: 'Business Website with a lot of products', imageUrl: 'adventure.png', tags: ['Elementor', 'PHP', 'Javascript', 'WooCommerce'], liveUrl: 'https://adventureprimal.com.au/',  category: 'WooCommerce' }, 
   { title: 'Antunes', description: 'Business Website with a lot of products', imageUrl: 'antunes.png', tags: ['Elementor', 'PHP', 'Javascript', 'WooCommerce'], liveUrl: 'https://antunes.com/',  category: 'WooCommerce' },
   { title: 'Hermosa', description: 'Business Website with a lot of products', imageUrl: 'hermosa.png', tags: ['Elementor', 'PHP', 'Javascript', 'WooCommerce'], liveUrl: 'https://www-dev.hermosa.co.il/',  category: 'WooCommerce' }, 
+  { title: 'Soul Drummer', description: 'Business Website with a lot of products', imageUrl: 'soul-drummer.png', tags: ['Elementor', 'PHP', 'Javascript', 'WooCommerce'], liveUrl: 'https://souldrummer.com.au/',  category: 'WooCommerce' }, 
+   { title: 'Amusement', description: 'Business Website with a lot of products', imageUrl: 'amusement.png', tags: ['Elementor', 'PHP', 'Javascript', 'WooCommerce'], liveUrl: 'https://amusements.global/',  category: 'WooCommerce' }, 
 
 
   // Shopify
